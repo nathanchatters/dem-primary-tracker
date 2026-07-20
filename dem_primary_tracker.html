@@ -237,14 +237,13 @@
   const latestDate = dates[dates.length - 1];
   const prevDate = dates.length > 1 ? dates[dates.length - 2] : null;
 
-  // rank by latest date's pct (fall back to most recent value the candidate has)
-  function latestValue(series) {
-    if (series.has(latestDate)) return series.get(latestDate);
-    const known = Array.from(series.keys()).sort();
-    return known.length ? series.get(known[known.length - 1]) : 0;
-  }
+  // Rank (and only surface) candidates with a value on the latest date --
+  // a candidate whose only data is old backfilled history (e.g. dropped
+  // out, or a stray early poll) shouldn't outrank someone actually polling
+  // today just because their last-known number happened to be higher.
   const ranked = Array.from(byCandidate.entries())
-    .map(([name, series]) => ({ name, series, latest: latestValue(series) }))
+    .filter(([, series]) => series.has(latestDate))
+    .map(([name, series]) => ({ name, series, latest: series.get(latestDate) }))
     .sort((a, b) => b.latest - a.latest);
 
   const colorOf = new Map();

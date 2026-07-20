@@ -1,5 +1,4919 @@
 [
   {
+    "date": "2025-02-06",
+    "candidate": "Harris",
+    "pct": 30.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Newsom",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Walz",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Ocasio-Cortez",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Warnock",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Fetterman",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-06",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Harris",
+    "pct": 36.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Walz",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Newsom",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Ocasio-Cortez",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Whitmer",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Cuban",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Warnock",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Fetterman",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Crockett",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Beshear",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Gallego",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-13",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Harris",
+    "pct": 37.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Newsom",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Cuban",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Whitmer",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-02-21",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Harris",
+    "pct": 33.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Newsom",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Walz",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Cuban",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Shapiro",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Stewart",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-03-14",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Harris",
+    "pct": 30.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Newsom",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Sanders",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Walz",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Kelly",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Cuban",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Klobuchar",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Warren",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-03",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Harris",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Booker",
+    "pct": 11.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Buttigieg",
+    "pct": 10.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Newsom",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Walz",
+    "pct": 4.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Pritzker",
+    "pct": 3.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Whitmer",
+    "pct": 3.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Stewart",
+    "pct": 2.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Klobuchar",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Beshear",
+    "pct": 1.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Moore",
+    "pct": 1.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Crockett",
+    "pct": 1.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Cuban",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Warnock",
+    "pct": 0.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Smith",
+    "pct": 0.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-04-16",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Harris",
+    "pct": 30.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Newsom",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Ocasio-Cortez",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Booker",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Buttigieg",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Walz",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Klobuchar",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Cooper",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Crockett",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Whitmer",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-09",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Harris",
+    "pct": 32.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Ocasio-Cortez",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Booker",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Newsom",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Pritzker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Walz",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Shapiro",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Cuban",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Beshear",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Stewart",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-12",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Harris",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Buttigieg",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Ocasio-Cortez",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Booker",
+    "pct": 8.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Newsom",
+    "pct": 5.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Shapiro",
+    "pct": 5.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Whitmer",
+    "pct": 3.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Klobuchar",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Crockett",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Pritzker",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Cooper",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Murphy",
+    "pct": 0.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Smith",
+    "pct": 0.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Beshear",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-05-30",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Harris",
+    "pct": 25.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Buttigieg",
+    "pct": 13.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Newsom",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Shapiro",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Walz",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Sanders",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Whitmer",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Booker",
+    "pct": 3.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Smith",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-06-27",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Harris",
+    "pct": 26.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Newsom",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Booker",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Cuban",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Fetterman",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Murphy",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Crockett",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Stewart",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-07-14",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Harris",
+    "pct": 26.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Newsom",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Cuban",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Stewart",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Warnock",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Fetterman",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-18",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Harris",
+    "pct": 27.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Newsom",
+    "pct": 18.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Buttigieg",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Ocasio-Cortez",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Cooper",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-27",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Newsom",
+    "pct": 25.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Buttigieg",
+    "pct": 16.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Harris",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Ocasio-Cortez",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Sanders",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-08-29",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Newsom",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Harris",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Ocasio-Cortez",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Pritzker",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Walz",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-04",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Newsom",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Harris",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Ocasio-Cortez",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Buttigieg",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Walz",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Sanders",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Warren",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Kelly",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Booker",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-12",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Newsom",
+    "pct": 37.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Harris",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Buttigieg",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Walz",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Shapiro",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Whitmer",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-19",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Harris",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Newsom",
+    "pct": 17.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Buttigieg",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Booker",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Cuban",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Stewart",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Beshear",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-09-22",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Harris",
+    "pct": 24.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Newsom",
+    "pct": 15.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Walz",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Ocasio-Cortez",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Stewart",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Cuban",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-10-21",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Newsom",
+    "pct": 25.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Harris",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Buttigieg",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Ocasio-Cortez",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Sanders",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Booker",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-07",
+    "candidate": "Whitmer",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Newsom",
+    "pct": 29.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Harris",
+    "pct": 17.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Buttigieg",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Cuban",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Crockett",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Stewart",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Whitmer",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-11-17",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Newsom",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Harris",
+    "pct": 22.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Pritzker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Kelly",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Fetterman",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-16",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Newsom",
+    "pct": 35.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Ocasio-Cortez",
+    "pct": 16.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Buttigieg",
+    "pct": 15.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Harris",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Beshear",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Walz",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Khanna",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Warnock",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2025-12-19",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Harris",
+    "pct": 20.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Newsom",
+    "pct": 17.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Buttigieg",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Kelly",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Sanders",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Warren",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Shapiro",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Walz",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Whitmer",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-16",
+    "candidate": "Klobuchar",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Newsom",
+    "pct": 27.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Harris",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Buttigieg",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Warnock",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Fetterman",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-01-26",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-02",
+    "candidate": "Harris",
+    "pct": 39.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-02",
+    "candidate": "Newsom",
+    "pct": 30.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-02",
+    "candidate": "Ocasio-Cortez",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-02",
+    "candidate": "Shapiro",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-02",
+    "candidate": "Pritzker",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Harris",
+    "pct": 38.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Newsom",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Buttigieg",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Kelly",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Ocasio-Cortez",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Ossoff",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-16",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Newsom",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Harris",
+    "pct": 18.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Buttigieg",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Ocasio-Cortez",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Kelly",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Pritzker",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-19",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Newsom",
+    "pct": 24.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Harris",
+    "pct": 18.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Buttigieg",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Ossoff",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-23",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Newsom",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Harris",
+    "pct": 18.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Kelly",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Pritzker",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Warren",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Shapiro",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-24",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Newsom",
+    "pct": 20.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Buttigieg",
+    "pct": 16.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Harris",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Shapiro",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Beshear",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-02-26",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-02",
+    "candidate": "Harris",
+    "pct": 39.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-02",
+    "candidate": "Newsom",
+    "pct": 24.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-02",
+    "candidate": "Ocasio-Cortez",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-02",
+    "candidate": "Shapiro",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-02",
+    "candidate": "Pritzker",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Harris",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Newsom",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Kelly",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Ossoff",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Fetterman",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-09",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Harris",
+    "pct": 20.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Newsom",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Buttigieg",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Klobuchar",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Crockett",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Cooper",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-10",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Harris",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Newsom",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Buttigieg",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Warnock",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Ossoff",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-16",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Harris",
+    "pct": 31.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Newsom",
+    "pct": 16.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Buttigieg",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Klobuchar",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-18",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Harris",
+    "pct": 22.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Newsom",
+    "pct": 19.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Shapiro",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Kelly",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Ossoff",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Gallego",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-24",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-30",
+    "candidate": "Harris",
+    "pct": 41.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-30",
+    "candidate": "Newsom",
+    "pct": 26.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-30",
+    "candidate": "Shapiro",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-30",
+    "candidate": "Ocasio-Cortez",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-03-30",
+    "candidate": "Pritzker",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Harris",
+    "pct": 22.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Newsom",
+    "pct": 15.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Buttigieg",
+    "pct": 11.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Sanders",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Kelly",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Pritzker",
+    "pct": 3.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Warren",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Cuban",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Walz",
+    "pct": 1.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Whitmer",
+    "pct": 1.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Ossoff",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Spanberger",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-13",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Harris",
+    "pct": 29.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Newsom",
+    "pct": 15.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Ocasio-Cortez",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Whitmer",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Cooper",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Smith",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Polis",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-16",
+    "candidate": "Crockett",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Harris",
+    "pct": 22.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Newsom",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Buttigieg",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Ocasio-Cortez",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Kelly",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Ossoff",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Fetterman",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-21",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-28",
+    "candidate": "Harris",
+    "pct": 50.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-28",
+    "candidate": "Newsom",
+    "pct": 22.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-28",
+    "candidate": "Shapiro",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-28",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-04-28",
+    "candidate": "Pritzker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Ocasio-Cortez",
+    "pct": 26.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Buttigieg",
+    "pct": 22.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Newsom",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Harris",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Beshear",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Shapiro",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Walz",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Whitmer",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Moore",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-12",
+    "candidate": "Warnock",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Harris",
+    "pct": 25.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Newsom",
+    "pct": 17.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Buttigieg",
+    "pct": 15.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Kelly",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Whitmer",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Khanna",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-15",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Harris",
+    "pct": 23.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Newsom",
+    "pct": 17.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Buttigieg",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Kelly",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Pritzker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Whitmer",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Ossoff",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-19",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Harris",
+    "pct": 28.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Newsom",
+    "pct": 16.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Buttigieg",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Ocasio-Cortez",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Emanuel",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Cooper",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Smith",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-22",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Buttigieg",
+    "pct": 17.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Newsom",
+    "pct": 14.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Harris",
+    "pct": 9.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Shapiro",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Sanders",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Booker",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Beshear",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Pritzker",
+    "pct": 2.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-05-28",
+    "candidate": "Whitmer",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-02",
+    "candidate": "Harris",
+    "pct": 44.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-02",
+    "candidate": "Newsom",
+    "pct": 26.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-02",
+    "candidate": "Shapiro",
+    "pct": 10.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-02",
+    "candidate": "Ocasio-Cortez",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-02",
+    "candidate": "Pritzker",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-12",
+    "candidate": "Harris",
+    "pct": 27.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-12",
+    "candidate": "Newsom",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-12",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-12",
+    "candidate": "Ocasio-Cortez",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-12",
+    "candidate": "Pritzker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-12",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Harris",
+    "pct": 31.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Newsom",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Buttigieg",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Ocasio-Cortez",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Walz",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Ossoff",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-15",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Harris",
+    "pct": 20.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Newsom",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Buttigieg",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Ocasio-Cortez",
+    "pct": 12.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Beshear",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Ossoff",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Warnock",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-17",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Harris",
+    "pct": 26.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Newsom",
+    "pct": 16.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Buttigieg",
+    "pct": 8.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Shapiro",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Booker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Pritzker",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Kelly",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Moore",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Emanuel",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-06-26",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Harris",
+    "pct": 29.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Newsom",
+    "pct": 15.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Buttigieg",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Ocasio-Cortez",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Kelly",
+    "pct": 5.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Shapiro",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Booker",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Walz",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Ossoff",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Fetterman",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-07",
+    "candidate": "Gallego",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-08",
+    "candidate": "Harris",
+    "pct": 35.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-08",
+    "candidate": "Newsom",
+    "pct": 18.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-08",
+    "candidate": "Buttigieg",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-08",
+    "candidate": "Ocasio-Cortez",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-08",
+    "candidate": "Shapiro",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Harris",
+    "pct": 21.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Newsom",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Buttigieg",
+    "pct": 13.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Ocasio-Cortez",
+    "pct": 9.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Shapiro",
+    "pct": 7.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Kelly",
+    "pct": 4.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Pritzker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Beshear",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Ossoff",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Booker",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Emanuel",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Murphy",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-07-14",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
     "date": "2026-07-20",
     "candidate": "Harris",
     "pct": 28.4,
