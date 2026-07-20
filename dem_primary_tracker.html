@@ -80,7 +80,7 @@
     margin: 0;
     padding: 0;
     background: var(--page-plane);
-    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     color: var(--text-primary);
   }
   .viz-root {
@@ -92,12 +92,18 @@
     font-size: 1.5rem;
     margin: 0 0 4px;
   }
-  header p.meta {
+  header .meta {
     color: var(--text-secondary);
     font-size: 0.875rem;
     margin: 0 0 24px;
   }
-  header p.meta a {
+  header .meta p {
+    margin: 0 0 4px;
+  }
+  header .meta p:last-child {
+    margin-bottom: 0;
+  }
+  header .meta a {
     color: var(--text-secondary);
   }
   .card {
@@ -176,7 +182,7 @@
 <div class="viz-root">
   <header>
     <h1>2028 Democratic Primary — National Polling Tracker</h1>
-    <p class="meta" id="metaLine">Loading&hellip;</p>
+    <div class="meta" id="metaLine">Loading&hellip;</div>
   </header>
 
   <div id="errorBanner"></div>
@@ -224,9 +230,10 @@
     </li>
     <li id="fn-update">
       <strong>Update frequency.</strong> A GitHub Action re-scrapes
-      270toWin once a day (13:00 UTC) and commits any new data; this page
-      re-fetches <code>data.json</code> fresh on every load, so what you're
-      seeing is at most a day old.
+      270toWin once a day (13:00 UTC — 14:00 BST, or 13:00 GMT outside
+      British Summer Time) and commits any new data; this page re-fetches
+      <code>data.json</code> fresh on every load, so what you're seeing is
+      at most a day old.
     </li>
   </ol>
 </div>
@@ -242,6 +249,10 @@
 
   const root = document.documentElement;
   const cssVar = (name) => getComputedStyle(document.querySelector(".viz-root")).getPropertyValue(name).trim();
+  // English (day-month) short date, e.g. "2025-02-06" -> "06-02"
+  const formatDate = (iso) => { const [y, m, d] = iso.split("-"); return `${d}-${m}`; };
+
+  Chart.defaults.font.family = "'Times New Roman', Times, serif";
 
   function showError(message) {
     const banner = document.getElementById("errorBanner");
@@ -297,10 +308,12 @@
     colorOf.set(c.name, cssVar(PALETTE[i]));
   });
 
-  document.getElementById("metaLine").innerHTML =
-    `Source: 270toWin national polling averages<sup><a href="#fn-source" class="footnote-ref">1</a></sup> · ` +
-    `Last updated ${latestDate} · ${ranked.length} candidates tracked · ` +
-    `updates daily<sup><a href="#fn-update" class="footnote-ref">3</a></sup>`;
+  document.getElementById("metaLine").innerHTML = `
+    <p>Source: 270toWin national polling averages<sup><a href="#fn-source" class="footnote-ref">1</a></sup></p>
+    <p>Last updated ${formatDate(latestDate)}</p>
+    <p>${ranked.length} candidates tracked</p>
+    <p><strong>Updates daily</strong><sup><a href="#fn-update" class="footnote-ref">3</a></sup></p>
+  `;
 
   // ---- chart: top N candidates only, rest stay in the leaderboard table ----
   const datasets = ranked.slice(0, MAX_CHARTED_CANDIDATES).map((c) => ({
@@ -318,7 +331,7 @@
   const ctx = document.getElementById("pollChart").getContext("2d");
   new Chart(ctx, {
     type: "line",
-    data: { labels: dates, datasets },
+    data: { labels: dates.map(formatDate), datasets },
     options: {
       responsive: true,
       maintainAspectRatio: false,
@@ -327,7 +340,7 @@
       scales: {
         x: {
           grid: { color: cssVar("--gridline") },
-          ticks: { color: cssVar("--text-muted") },
+          ticks: { color: cssVar("--text-muted"), maxRotation: 0, minRotation: 0, autoSkip: true },
         },
         y: {
           beginAtZero: true,
