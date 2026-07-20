@@ -181,7 +181,7 @@
 <body>
 <div class="viz-root">
   <header>
-    <h1>2028 Democratic Primary — National Polling Tracker</h1>
+    <h1>2028 Democratic Primary - National Polling Tracker</h1>
     <div class="meta" id="metaLine">Loading&hellip;</div>
   </header>
 
@@ -212,17 +212,17 @@
       <strong>Sources.</strong> All figures are 270toWin's national polling
       average for the 2028 Democratic nomination, itself an aggregate of
       multiple pollsters (not a single house like Gallup, and not
-      RealClearPolling — see the project
+      RealClearPolling - see the project
       <a href="https://github.com/nathanchatters/dem-primary-tracker#source--scraping-policy" target="_blank" rel="noopener">README</a>
       for why). Dates before this tracker started running daily are
       backfilled: 270toWin doesn't publish a history of its own past
       averages, so those points are <em>our</em> average of that day's
-      individual polls as listed on their page — an approximation of, not
+      individual polls as listed on their page - an approximation of, not
       identical to, 270toWin's own methodology.
     </li>
     <li id="fn-change">
       <strong>Change.</strong> The difference versus the most recent
-      <em>earlier date this candidate has a value for</em> — not a fixed
+      <em>earlier date this candidate has a value for</em> - not a fixed
       window like "vs. yesterday" or a rolling average. Early history is
       sparse (dated to whenever a poll actually happened), so a "change"
       there can span weeks; once enough daily snapshots have accumulated
@@ -230,10 +230,7 @@
     </li>
     <li id="fn-update">
       <strong>Update frequency.</strong> A GitHub Action re-scrapes
-      270toWin once a day (13:00 UTC — 14:00 BST, or 13:00 GMT outside
-      British Summer Time) and commits any new data; this page re-fetches
-      <code>data.json</code> fresh on every load, so what you're seeing is
-      at most a day old.
+      270toWin once a day at 14:00 BST.
     </li>
   </ol>
 </div>
@@ -369,7 +366,7 @@
   const tbody = document.querySelector("#leaderboard tbody");
   ranked.forEach((c, i) => {
     const prevVal = prevDate && c.series.has(prevDate) ? c.series.get(prevDate) : null;
-    let deltaHtml = `<span class="delta-flat">–</span>`;
+    let deltaHtml = `<span class="delta-flat">-</span>`;
     if (prevVal !== null) {
       const delta = Math.round((c.latest - prevVal) * 10) / 10;
       if (delta > 0) deltaHtml = `<span class="delta-up">&#9650; ${delta.toFixed(1)}</span>`;
