@@ -325,14 +325,64 @@
     tension: 0.15,
   }));
 
+  // Mark year boundaries on the chart: a vertical divider with small
+  // bracket-style end caps, plus a year label centered in each span --
+  // dates are shown as DD-MM with no year, so this is the only cue for
+  // which side of a Jan 1 crossing a point falls on.
+  const yearBoundaryPlugin = {
+    id: "yearBoundary",
+    afterDraw(chart) {
+      const { ctx, chartArea, scales } = chart;
+      const xScale = scales.x;
+      const years = dates.map((d) => d.slice(0, 4));
+      const boundaries = [0];
+      for (let i = 1; i < years.length; i++) {
+        if (years[i] !== years[i - 1]) boundaries.push(i);
+      }
+      boundaries.push(years.length);
+
+      ctx.save();
+      ctx.strokeStyle = cssVar("--baseline");
+      ctx.fillStyle = cssVar("--text-muted");
+      ctx.font = "12px 'Times New Roman', Times, serif";
+      ctx.lineWidth = 1;
+
+      for (let s = 0; s < boundaries.length - 1; s++) {
+        const startX = xScale.getPixelForValue(boundaries[s]);
+        const endX = xScale.getPixelForValue(boundaries[s + 1] - 1);
+        const midX = (startX + endX) / 2;
+        ctx.textAlign = "center";
+        ctx.fillText(years[boundaries[s]], midX, chartArea.top - 6);
+
+        if (s > 0) {
+          const dividerX = xScale.getPixelForValue(boundaries[s]) -
+            (xScale.getPixelForValue(boundaries[s]) - xScale.getPixelForValue(boundaries[s] - 1)) / 2;
+          ctx.beginPath();
+          ctx.moveTo(dividerX, chartArea.top);
+          ctx.lineTo(dividerX, chartArea.bottom);
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(dividerX - 4, chartArea.top);
+          ctx.lineTo(dividerX + 4, chartArea.top);
+          ctx.moveTo(dividerX - 4, chartArea.bottom);
+          ctx.lineTo(dividerX + 4, chartArea.bottom);
+          ctx.stroke();
+        }
+      }
+      ctx.restore();
+    },
+  };
+
   const ctx = document.getElementById("pollChart").getContext("2d");
   new Chart(ctx, {
     type: "line",
     data: { labels: dates.map(formatDate), datasets },
+    plugins: [yearBoundaryPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
       animation: false,
+      layout: { padding: { top: 18 } },
       interaction: { mode: "index", intersect: false },
       scales: {
         x: {
