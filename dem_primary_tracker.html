@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2028 Democratic Primary Polling Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page-plane:     #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --good:           #006300;
+    --critical:       #d03b3b;
+
+    --series-1: #2a78d6; /* blue */
+    --series-2: #1baf7a; /* aqua */
+    --series-3: #eda100; /* yellow */
+    --series-4: #008300; /* green */
+    --series-5: #4a3aa7; /* violet */
+    --series-6: #e34948; /* red */
+    --series-7: #e87ba4; /* magenta */
+    --series-8: #eb6834; /* orange */
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) .viz-root {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page-plane:     #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --good:           #0ca30c;
+      --critical:       #e66767;
+
+      --series-1: #3987e5;
+      --series-2: #199e70;
+      --series-3: #c98500;
+      --series-4: #008300;
+      --series-5: #9085e9;
+      --series-6: #e66767;
+      --series-7: #d55181;
+      --series-8: #d95926;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page-plane:     #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --good:           #0ca30c;
+    --critical:       #e66767;
+
+    --series-1: #3987e5;
+    --series-2: #199e70;
+    --series-3: #c98500;
+    --series-4: #008300;
+    --series-5: #9085e9;
+    --series-6: #e66767;
+    --series-7: #d55181;
+    --series-8: #d95926;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--page-plane);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: var(--text-primary);
+  }
+  .viz-root {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 16px 64px;
+  }
+  header h1 {
+    font-size: 1.5rem;
+    margin: 0 0 4px;
+  }
+  header p.meta {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin: 0 0 24px;
+  }
+  header p.meta a {
+    color: var(--text-secondary);
+  }
+  .card {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    overflow-x: auto;
+  }
+  .chart-wrap {
+    position: relative;
+    height: 420px;
+  }
+  #errorBanner {
+    display: none;
+    background: var(--surface-1);
+    border: 1px solid var(--critical);
+    color: var(--critical);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-size: 0.9rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.9rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--gridline);
+  }
+  th {
+    color: var(--text-muted);
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  td.num, th.num { text-align: right; }
+  .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  .dot.muted { background: var(--text-muted); }
+  .delta-up   { color: var(--good); }
+  .delta-down { color: var(--critical); }
+  .delta-flat { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<div class="viz-root">
+  <header>
+    <h1>2028 Democratic Primary — National Polling Tracker</h1>
+    <p class="meta" id="metaLine">Loading&hellip;</p>
+  </header>
+
+  <div id="errorBanner"></div>
+
+  <div class="card">
+    <div class="chart-wrap">
+      <canvas id="pollChart" aria-label="Line chart of polling average over time by candidate" role="img"></canvas>
+    </div>
+  </div>
+
+  <div class="card">
+    <table id="leaderboard">
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Candidate</th>
+          <th class="num">Avg %</th>
+          <th class="num">Change</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+(async function () {
+  const DATA_URL = "data.json";
+  const MAX_CHARTED_CANDIDATES = 8;
+  const PALETTE = [
+    "--series-1", "--series-2", "--series-3", "--series-4",
+    "--series-5", "--series-6", "--series-7", "--series-8",
+  ];
+
+  const root = document.documentElement;
+  const cssVar = (name) => getComputedStyle(document.querySelector(".viz-root")).getPropertyValue(name).trim();
+
+  function showError(message) {
+    const banner = document.getElementById("errorBanner");
+    banner.textContent = message;
+    banner.style.display = "block";
+    document.getElementById("metaLine").textContent = "Data unavailable.";
+  }
+
+  let rows;
+  try {
+    const resp = await fetch(DATA_URL, { cache: "no-store" });
+    if (!resp.ok) {
+      throw new Error(`data.json request failed: HTTP ${resp.status}`);
+    }
+    rows = await resp.json();
+    if (!Array.isArray(rows)) {
+      throw new Error("data.json did not contain a JSON array.");
+    }
+  } catch (err) {
+    showError(`Couldn't load polling data (${err.message}). The scraper may not have run yet, or data.json is missing/malformed.`);
+    return;
+  }
+
+  if (rows.length === 0) {
+    showError("data.json loaded but contains no rows yet.");
+    return;
+  }
+
+  // ---- shape data: candidate -> { date -> pct }, and full sorted date list ----
+  const byCandidate = new Map();
+  const dateSet = new Set();
+  for (const r of rows) {
+    if (!r || typeof r.candidate !== "string" || typeof r.pct !== "number" || typeof r.date !== "string") continue;
+    dateSet.add(r.date);
+    if (!byCandidate.has(r.candidate)) byCandidate.set(r.candidate, new Map());
+    byCandidate.get(r.candidate).set(r.date, r.pct);
+  }
+  const dates = Array.from(dateSet).sort();
+  const latestDate = dates[dates.length - 1];
+  const prevDate = dates.length > 1 ? dates[dates.length - 2] : null;
+
+  // rank by latest date's pct (fall back to most recent value the candidate has)
+  function latestValue(series) {
+    if (series.has(latestDate)) return series.get(latestDate);
+    const known = Array.from(series.keys()).sort();
+    return known.length ? series.get(known[known.length - 1]) : 0;
+  }
+  const ranked = Array.from(byCandidate.entries())
+    .map(([name, series]) => ({ name, series, latest: latestValue(series) }))
+    .sort((a, b) => b.latest - a.latest);
+
+  const colorOf = new Map();
+  ranked.slice(0, MAX_CHARTED_CANDIDATES).forEach((c, i) => {
+    colorOf.set(c.name, cssVar(PALETTE[i]));
+  });
+
+  document.getElementById("metaLine").textContent =
+    `Source: 270toWin national polling averages · Last updated ${latestDate} · ${ranked.length} candidates tracked`;
+
+  // ---- chart: top N candidates only, rest stay in the leaderboard table ----
+  const datasets = ranked.slice(0, MAX_CHARTED_CANDIDATES).map((c) => ({
+    label: c.name,
+    data: dates.map((d) => (c.series.has(d) ? c.series.get(d) : null)),
+    borderColor: colorOf.get(c.name),
+    backgroundColor: colorOf.get(c.name),
+    borderWidth: 2,
+    pointRadius: 0,
+    pointHoverRadius: 4,
+    spanGaps: true,
+    tension: 0.15,
+  }));
+
+  const ctx = document.getElementById("pollChart").getContext("2d");
+  new Chart(ctx, {
+    type: "line",
+    data: { labels: dates, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      animation: false,
+      interaction: { mode: "index", intersect: false },
+      scales: {
+        x: {
+          grid: { color: cssVar("--gridline") },
+          ticks: { color: cssVar("--text-muted") },
+        },
+        y: {
+          beginAtZero: true,
+          grid: { color: cssVar("--gridline") },
+          ticks: {
+            color: cssVar("--text-muted"),
+            callback: (v) => v + "%",
+          },
+        },
+      },
+      plugins: {
+        legend: {
+          position: "bottom",
+          labels: { color: cssVar("--text-secondary"), boxWidth: 10, boxHeight: 10 },
+        },
+        tooltip: {
+          callbacks: {
+            label: (item) => `${item.dataset.label}: ${item.formattedValue}%`,
+          },
+        },
+      },
+    },
+  });
+
+  // ---- leaderboard: every candidate, sorted by current average ----
+  const tbody = document.querySelector("#leaderboard tbody");
+  ranked.forEach((c, i) => {
+    const prevVal = prevDate && c.series.has(prevDate) ? c.series.get(prevDate) : null;
+    let deltaHtml = `<span class="delta-flat">–</span>`;
+    if (prevVal !== null) {
+      const delta = Math.round((c.latest - prevVal) * 10) / 10;
+      if (delta > 0) deltaHtml = `<span class="delta-up">&#9650; ${delta.toFixed(1)}</span>`;
+      else if (delta < 0) deltaHtml = `<span class="delta-down">&#9660; ${Math.abs(delta).toFixed(1)}</span>`;
+      else deltaHtml = `<span class="delta-flat">flat</span>`;
+    }
+    const color = colorOf.get(c.name);
+    const dotHtml = color
+      ? `<span class="dot" style="background:${color}"></span>`
+      : `<span class="dot muted"></span>`;
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="num">${i + 1}</td>
+      <td>${dotHtml}${c.name}</td>
+      <td class="num">${c.latest.toFixed(1)}%</td>
+      <td class="num">${deltaHtml}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+})();
+</script>
+</body>
+</html>
