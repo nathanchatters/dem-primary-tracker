@@ -153,6 +153,23 @@
   .delta-up   { color: var(--good); }
   .delta-down { color: var(--critical); }
   .delta-flat { color: var(--text-muted); }
+  .footnote-ref {
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .footnote-ref:hover { text-decoration: underline; }
+  .notes {
+    color: var(--text-secondary);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    padding-left: 1.25em;
+    margin: 0 0 24px;
+  }
+  .notes li { margin-bottom: 10px; }
+  .notes li:target { color: var(--text-primary); }
+  .notes strong { color: var(--text-primary); }
+  .notes a { color: var(--text-secondary); }
 </style>
 </head>
 <body>
@@ -177,12 +194,41 @@
           <th class="num">#</th>
           <th>Candidate</th>
           <th class="num">Avg %</th>
-          <th class="num">Change</th>
+          <th class="num">Change<sup><a href="#fn-change" class="footnote-ref">2</a></sup></th>
         </tr>
       </thead>
       <tbody></tbody>
     </table>
   </div>
+
+  <ol class="notes">
+    <li id="fn-source">
+      <strong>Sources.</strong> All figures are 270toWin's national polling
+      average for the 2028 Democratic nomination, itself an aggregate of
+      multiple pollsters (not a single house like Gallup, and not
+      RealClearPolling — see the project
+      <a href="https://github.com/nathanchatters/dem-primary-tracker#source--scraping-policy" target="_blank" rel="noopener">README</a>
+      for why). Dates before this tracker started running daily are
+      backfilled: 270toWin doesn't publish a history of its own past
+      averages, so those points are <em>our</em> average of that day's
+      individual polls as listed on their page — an approximation of, not
+      identical to, 270toWin's own methodology.
+    </li>
+    <li id="fn-change">
+      <strong>Change.</strong> The difference versus the most recent
+      <em>earlier date this candidate has a value for</em> — not a fixed
+      window like "vs. yesterday" or a rolling average. Early history is
+      sparse (dated to whenever a poll actually happened), so a "change"
+      there can span weeks; once enough daily snapshots have accumulated
+      going forward it converges to a day-over-day comparison.
+    </li>
+    <li id="fn-update">
+      <strong>Update frequency.</strong> A GitHub Action re-scrapes
+      270toWin once a day (13:00 UTC) and commits any new data; this page
+      re-fetches <code>data.json</code> fresh on every load, so what you're
+      seeing is at most a day old.
+    </li>
+  </ol>
 </div>
 
 <script>
@@ -251,8 +297,10 @@
     colorOf.set(c.name, cssVar(PALETTE[i]));
   });
 
-  document.getElementById("metaLine").textContent =
-    `Source: 270toWin national polling averages · Last updated ${latestDate} · ${ranked.length} candidates tracked`;
+  document.getElementById("metaLine").innerHTML =
+    `Source: 270toWin national polling averages<sup><a href="#fn-source" class="footnote-ref">1</a></sup> · ` +
+    `Last updated ${latestDate} · ${ranked.length} candidates tracked · ` +
+    `updates daily<sup><a href="#fn-update" class="footnote-ref">3</a></sup>`;
 
   // ---- chart: top N candidates only, rest stay in the leaderboard table ----
   const datasets = ranked.slice(0, MAX_CHARTED_CANDIDATES).map((c) => ({
