@@ -218,13 +218,12 @@
       identical to, 270toWin's own methodology.
     </li>
     <li id="fn-change">
-      <strong>Change.</strong> The difference versus the last time this
-      candidate's average was actually different - not simply "vs.
-      yesterday." A daily scrape repeats the same number whenever no new
-      poll has entered the average since the last run, so comparing to
-      the previous scrape date alone would show "flat" for everyone on
-      any day without fresh polling. A dash means the average hasn't
-      moved at all since we started tracking it.
+      <strong>Change.</strong> The difference versus the most recent
+      <em>earlier date this candidate has a value for</em> - not a fixed
+      window like "vs. yesterday" or a rolling average. Early history is
+      sparse (dated to whenever a poll actually happened), so a "change"
+      there can span weeks; once enough daily snapshots have accumulated
+      going forward it converges to a day-over-day comparison.
     </li>
     <li id="fn-update">
       <strong>Update frequency.</strong> A GitHub Action re-scrapes
