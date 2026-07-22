@@ -218,12 +218,13 @@
       identical to, 270toWin's own methodology.
     </li>
     <li id="fn-change">
-      <strong>Change.</strong> The difference versus the most recent
-      <em>earlier date this candidate has a value for</em> - not a fixed
-      window like "vs. yesterday" or a rolling average. Early history is
-      sparse (dated to whenever a poll actually happened), so a "change"
-      there can span weeks; once enough daily snapshots have accumulated
-      going forward it converges to a day-over-day comparison.
+      <strong>Change.</strong> The difference versus the last time this
+      candidate's average was actually different - not simply "vs.
+      yesterday." A daily scrape repeats the same number whenever no new
+      poll has entered the average since the last run, so comparing to
+      the previous scrape date alone would show "flat" for everyone on
+      any day without fresh polling. A dash means the average hasn't
+      moved at all since we started tracking it.
     </li>
     <li id="fn-update">
       <strong>Update frequency.</strong> A GitHub Action re-scrapes
@@ -286,7 +287,18 @@
   }
   const dates = Array.from(dateSet).sort();
   const latestDate = dates[dates.length - 1];
-  const prevDate = dates.length > 1 ? dates[dates.length - 2] : null;
+
+  // Last time a candidate's own average was actually *different* from
+  // today's -- not just the previous scrape date, which repeats the same
+  // number whenever no new poll has come in since the last run.
+  function lastMoveValue(series, currentVal) {
+    const ownDates = Array.from(series.keys()).sort();
+    for (let j = ownDates.length - 2; j >= 0; j--) {
+      const v = series.get(ownDates[j]);
+      if (v !== currentVal) return v;
+    }
+    return null;
+  }
 
   // Rank (and only surface) candidates with a value on the latest date --
   // a candidate whose only data is old backfilled history (e.g. dropped
@@ -412,7 +424,7 @@
   // ---- leaderboard: every candidate, sorted by current average ----
   const tbody = document.querySelector("#leaderboard tbody");
   ranked.forEach((c, i) => {
-    const prevVal = prevDate && c.series.has(prevDate) ? c.series.get(prevDate) : null;
+    const prevVal = lastMoveValue(c.series, c.latest);
     let deltaHtml = `<span class="delta-flat">-</span>`;
     if (prevVal !== null) {
       const delta = Math.round((c.latest - prevVal) * 10) / 10;
