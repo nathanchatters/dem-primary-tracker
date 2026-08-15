@@ -382,7 +382,7 @@
   };
 
   const ctx = document.getElementById("pollChart").getContext("2d");
-  new Chart(ctx, {
+  const chart = new Chart(ctx, {
     type: "line",
     data: { labels: dates.map(formatDate), datasets },
     plugins: [yearBoundaryPlugin],
@@ -419,6 +419,12 @@
       },
     },
   });
+
+  // Chart.js can occasionally settle on a 0px canvas width on first paint
+  // (its ResizeObserver firing before the container has its final layout),
+  // and with animation disabled nothing else ever corrects it. Force one
+  // resize pass once the browser has actually settled.
+  requestAnimationFrame(() => chart.resize());
 
   // ---- leaderboard: every candidate, sorted by current average ----
   const tbody = document.querySelector("#leaderboard tbody");
