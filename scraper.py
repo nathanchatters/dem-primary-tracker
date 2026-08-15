@@ -9,11 +9,14 @@ failure, and never writes partial/empty data over a good history.
 270toWin only ever shows the *current* poll average -- it doesn't publish
 a history of past daily averages. To backfill a real trend instead of
 starting from a single flat day, we also read every individual poll row
-listed on the page (each has a real pollster and date) and, for each past
-date, average that date's individual polls per candidate as a stand-in for
-what the average likely was that day. That derived value is distinct from
-270toWin's own (differently weighted) methodology, so treat early history
-as an approximation -- it converges to the real thing once enough of our
+listed on the page (each has a real pollster and date). Because polls for
+this race only come in every week or two, a single day's poll(s) in
+isolation swing wildly by house effects alone -- so each backfilled point
+is a trailing ROLLING_WINDOW_DAYS-day average of that candidate's polls
+(matching how a real polling average smooths over recent polls, not just
+today's), rather than one raw poll's result. That derived value is still
+distinct from 270toWin's own (differently weighted) methodology, so treat
+early history as an approximation -- it's superseded date-by-date once our
 own daily snapshots have accumulated.
 """
 import datetime
@@ -29,6 +32,7 @@ URL = "https://www.270towin.com/2028-democratic-nomination/"
 DATA_FILE = Path(__file__).parent / "data.json"
 SOURCE_LABEL = "270toWin avg"
 REQUEST_TIMEOUT = 20
+ROLLING_WINDOW_DAYS = 30
 USER_AGENT = (
     "dem-primary-tracker/1.0 "
     "(+https://github.com/; personal polling dashboard; contact via repo issues)"
@@ -129,24 +133,29 @@ def parse_poll_averages(table, candidate_names: list[str]) -> list[tuple[str, fl
 
 
 def parse_poll_history(table, candidate_id_to_name: dict) -> list[tuple[str, str, float]]:
-    """Parse every individual poll row for its real (dated) results.
+    """Parse every individual poll row for its real (dated) results, and turn
+    them into one smoothed history point per (date, candidate).
 
     Each poll_row has a real pollster and date, and one <td candidate_id="..">
     per candidate that has a value (candidates with no result in that poll
-    simply have no candidate_id cell). Returns one row per (date, candidate),
-    averaging across polls that share a date, as ("YYYY-MM-DD", name, pct).
-    Malformed individual rows are skipped rather than failing the whole run --
-    this is a backfill enrichment, not the critical path.
+    simply have no candidate_id cell). For each date a candidate has a poll,
+    the value is the mean of that candidate's polls in the trailing
+    ROLLING_WINDOW_DAYS-day window ending on that date -- a single day's raw
+    poll(s) swing wildly given how infrequently this race gets polled, so a
+    rolling window approximates a real average's smoothing instead of
+    plotting house-effect noise. Malformed individual rows are skipped rather
+    than failing the whole run -- this is a backfill enrichment, not the
+    critical path.
     """
     poll_rows = table.find_all("tr", class_=lambda c: c and "poll_row" in c.split())
 
-    by_date_candidate: dict[tuple[str, str], list[float]] = {}
+    by_candidate: dict[str, list[tuple[datetime.date, float]]] = {}
     for row in poll_rows:
         date_td = row.find("td", class_="poll_date")
         if date_td is None:
             continue
         try:
-            date_iso = datetime.datetime.strptime(date_td.get_text(strip=True), "%m/%d/%Y").date().isoformat()
+            poll_date = datetime.datetime.strptime(date_td.get_text(strip=True), "%m/%d/%Y").date()
         except ValueError:
             continue
 
@@ -161,12 +170,18 @@ def parse_poll_history(table, candidate_id_to_name: dict) -> list[tuple[str, str
                 continue
             if not (0.0 <= pct <= 100.0):
                 continue
-            by_date_candidate.setdefault((date_iso, name), []).append(pct)
+            by_candidate.setdefault(name, []).append((poll_date, pct))
 
-    return [
-        (date_iso, name, round(statistics.mean(values), 1))
-        for (date_iso, name), values in by_date_candidate.items()
-    ]
+    window = datetime.timedelta(days=ROLLING_WINDOW_DAYS)
+    results = []
+    for name, polls in by_candidate.items():
+        polls.sort(key=lambda p: p[0])
+        poll_dates = sorted({d for d, _ in polls})
+        for d in poll_dates:
+            window_vals = [pct for pd, pct in polls if d - window <= pd <= d]
+            results.append((d.isoformat(), name, round(statistics.mean(window_vals), 1)))
+
+    return results
 
 
 def load_existing(path: Path) -> list[dict]:
