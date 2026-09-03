@@ -10222,5 +10222,131 @@
     "candidate": "Smith",
     "pct": 0.0,
     "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Harris",
+    "pct": 25.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Buttigieg",
+    "pct": 14.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Newsom",
+    "pct": 13.4,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Ossoff",
+    "pct": 11.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Ocasio-Cortez",
+    "pct": 10.2,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Kelly",
+    "pct": 6.3,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Shapiro",
+    "pct": 6.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Pritzker",
+    "pct": 3.3,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Booker",
+    "pct": 3.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Beshear",
+    "pct": 2.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Whitmer",
+    "pct": 2.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "El-Sayed",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Fetterman",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Khanna",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Klobuchar",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Moore",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Murphy",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Warnock",
+    "pct": 1.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Emanuel",
+    "pct": 0.5,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Polis",
+    "pct": 0.0,
+    "source": "270toWin avg"
+  },
+  {
+    "date": "2026-09-03",
+    "candidate": "Smith",
+    "pct": 0.0,
+    "source": "270toWin avg"
   }
 ]
